@@ -1,0 +1,10 @@
+const {add,sub, multiply} = require("junaid-calculator")
+const _ = require("underscore")
+const os = require("os")
+const fs = require("fs")
+console.log(os.freemem())
+console.log(add(10,5))  
+const res = _.contains([1,2,3,4],9)
+console.log(res)
+
+console.log(multiply(2,3))

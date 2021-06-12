@@ -1,0 +1,6 @@
+console.clear()
+const {sub,sum} = require("./calculator")
+// console.log("My code is starting")
+// console.log(__dirname)
+// console.log(__filename)
+console.log(sub(3,6))
